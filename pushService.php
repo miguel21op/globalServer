@@ -1,0 +1,5 @@
+<?php
+
+// Nada para já
+
+?>

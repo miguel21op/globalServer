@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang='pt'>
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Global communicator</title>
+<meta name="title" content="Global Customer Engagement Service">
+<meta name="description" content="Make your message reach the people that matters.">
+<script type="text/javascript" src='js/ckeditor.js'></script>
+<style>
+	.ckeditor{
+		width:400px !important;
+	}
+</style>
+</head>
+<body>
+	 <form>
+            <textarea class="ckeditor" name="editor1" id="editor1" rows="10" cols="80" data-maxlen="255">
+                This is my textarea to be replaced with CKEditor.
+            </textarea>
+            <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+                CKEDITOR.replace('editor1');
+            </script>
+        </form>
+<script>
+var content = CKEDITOR.instances['editor1'].getData();
+</script>
+</body>
+</html>
