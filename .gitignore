@@ -3,5 +3,9 @@ js/plugins
 js/vendors/
 js/lib
 img
+js/adapters/
+js/skins/
+js/lang/
+
 
 
