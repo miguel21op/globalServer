@@ -1,11 +1,12 @@
 <?php
 // criar o objeto
  class person{
-     var $name; /* property */
+    	  var $name; /* property */
      
      // acrescentar métodos (funções)
-     	function set_name($new_name){
+     	 public function set_name($new_name){
      	 $this->name=$new_name;
+     	  //echo ($this->name);
      	 // $this chama outros métodos e propriedades do objecto / classe (built-in variable)
      	}
      	
@@ -14,8 +15,12 @@
      	}
      	
  }
+ // o new cria o objecto a partir da classe
  $stefan= new person();
- // $stefan = handle variável
+ // $stefan = handle variável; 
+ $stefan->set_name("João Pedro");
+ echo "O nome do Stefan é:  ". $stefan->get_name();
+ 
 /*
 class MyClass
 {
