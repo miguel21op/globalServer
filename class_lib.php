@@ -49,4 +49,3 @@ class MyClass
 $bar = new Myclass();
 */
 ?>
-
